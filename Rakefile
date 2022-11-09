@@ -4,3 +4,8 @@
 require_relative "config/application"
 
 Rails.application.load_tasks
+
+desc "this is test for Rakefile"
+task :hello_task do
+  puts "hello world from Rakefile!"
+end
